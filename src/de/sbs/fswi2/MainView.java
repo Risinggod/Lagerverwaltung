@@ -18,8 +18,7 @@ public class MainView extends Application {
         stage.setScene(scene);
         stage.show();
         
-        MainViewController controller = (MainViewController) loader.getController();
-        controller.setStage(stage);
+        
     
     }
 
